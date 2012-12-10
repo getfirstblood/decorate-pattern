@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'decorate pattern' target in the 'decorate pattern' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

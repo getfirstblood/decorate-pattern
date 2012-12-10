@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8E98CB316760CD000C7C7AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E98CB216760CD000C7C7AA /* Foundation.framework */; };
+		C8E98CB616760CD000C7C7AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E98CB516760CD000C7C7AA /* main.m */; };
+		C8E98CBA16760CD000C7C7AA /* decorate_pattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8E98CB916760CD000C7C7AA /* decorate_pattern.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8E98CAC16760CD000C7C7AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C8E98CBA16760CD000C7C7AA /* decorate_pattern.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C8E98CAE16760CD000C7C7AA /* decorate pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "decorate pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E98CB216760CD000C7C7AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8E98CB516760CD000C7C7AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8E98CB816760CD000C7C7AA /* decorate pattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "decorate pattern-Prefix.pch"; sourceTree = "<group>"; };
+		C8E98CB916760CD000C7C7AA /* decorate_pattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = decorate_pattern.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8E98CAB16760CD000C7C7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E98CB316760CD000C7C7AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8E98CA316760CD000C7C7AA = {
+			isa = PBXGroup;
+			children = (
+				C8E98CB416760CD000C7C7AA /* decorate pattern */,
+				C8E98CB116760CD000C7C7AA /* Frameworks */,
+				C8E98CAF16760CD000C7C7AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8E98CAF16760CD000C7C7AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8E98CAE16760CD000C7C7AA /* decorate pattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8E98CB116760CD000C7C7AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8E98CB216760CD000C7C7AA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8E98CB416760CD000C7C7AA /* decorate pattern */ = {
+			isa = PBXGroup;
+			children = (
+				C8E98CB516760CD000C7C7AA /* main.m */,
+				C8E98CB916760CD000C7C7AA /* decorate_pattern.1 */,
+				C8E98CB716760CD000C7C7AA /* Supporting Files */,
+			);
+			path = "decorate pattern";
+			sourceTree = "<group>";
+		};
+		C8E98CB716760CD000C7C7AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8E98CB816760CD000C7C7AA /* decorate pattern-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8E98CAD16760CD000C7C7AA /* decorate pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E98CBD16760CD000C7C7AA /* Build configuration list for PBXNativeTarget "decorate pattern" */;
+			buildPhases = (
+				C8E98CAA16760CD000C7C7AA /* Sources */,
+				C8E98CAB16760CD000C7C7AA /* Frameworks */,
+				C8E98CAC16760CD000C7C7AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "decorate pattern";
+			productName = "decorate pattern";
+			productReference = C8E98CAE16760CD000C7C7AA /* decorate pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8E98CA516760CD000C7C7AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = gaoweiwei;
+			};
+			buildConfigurationList = C8E98CA816760CD000C7C7AA /* Build configuration list for PBXProject "decorate pattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8E98CA316760CD000C7C7AA;
+			productRefGroup = C8E98CAF16760CD000C7C7AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8E98CAD16760CD000C7C7AA /* decorate pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8E98CAA16760CD000C7C7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E98CB616760CD000C7C7AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8E98CBB16760CD000C7C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C8E98CBC16760CD000C7C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C8E98CBE16760CD000C7C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "decorate pattern/decorate pattern-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8E98CBF16760CD000C7C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "decorate pattern/decorate pattern-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8E98CA816760CD000C7C7AA /* Build configuration list for PBXProject "decorate pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E98CBB16760CD000C7C7AA /* Debug */,
+				C8E98CBC16760CD000C7C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8E98CBD16760CD000C7C7AA /* Build configuration list for PBXNativeTarget "decorate pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E98CBE16760CD000C7C7AA /* Debug */,
+				C8E98CBF16760CD000C7C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8E98CA516760CD000C7C7AA /* Project object */;
+}
