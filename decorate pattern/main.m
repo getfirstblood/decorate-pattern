@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "one.h"
+#import "Two.h"
+#import "red.h"
+#import "yellow.h"
 int main(int argc, const char * argv[])
 {
 
@@ -15,7 +18,13 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         NSLog(@"Hello, World!");
-        
+        Dog *firstdog = [[one alloc] init];
+        firstdog = [[red alloc] initWithKindOfDog:firstdog];
+        [firstdog descript];
+        NSLog(@"%d",[firstdog cost]);
+        firstdog = [[yellow alloc] initWithKindOfDog:firstdog];
+        [firstdog descript];
+        NSLog(@"%d",[firstdog cost]);
     }
     return 0;
 }

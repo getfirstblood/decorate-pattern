@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C88E466F1676D3A60022A234 /* yellow.m in Sources */ = {isa = PBXBuildFile; fileRef = C88E466E1676D3A60022A234 /* yellow.m */; };
 		C8E98CB316760CD000C7C7AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E98CB216760CD000C7C7AA /* Foundation.framework */; };
 		C8E98CB616760CD000C7C7AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E98CB516760CD000C7C7AA /* main.m */; };
 		C8E98CBA16760CD000C7C7AA /* decorate_pattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8E98CB916760CD000C7C7AA /* decorate_pattern.1 */; };
+		C8EBB4871676CE820044EAC7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EBB4861676CE820044EAC7 /* Dog.m */; };
+		C8EBB48A1676CF5D0044EAC7 /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EBB4891676CF5D0044EAC7 /* one.m */; };
+		C8EBB48D1676D0020044EAC7 /* Two.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EBB48C1676D0020044EAC7 /* Two.m */; };
+		C8EBB4901676D04E0044EAC7 /* red.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EBB48F1676D04D0044EAC7 /* red.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +31,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C88E466D1676D3A60022A234 /* yellow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yellow.h; sourceTree = "<group>"; };
+		C88E466E1676D3A60022A234 /* yellow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yellow.m; sourceTree = "<group>"; };
 		C8E98CAE16760CD000C7C7AA /* decorate pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "decorate pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E98CB216760CD000C7C7AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8E98CB516760CD000C7C7AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8E98CB816760CD000C7C7AA /* decorate pattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "decorate pattern-Prefix.pch"; sourceTree = "<group>"; };
 		C8E98CB916760CD000C7C7AA /* decorate_pattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = decorate_pattern.1; sourceTree = "<group>"; };
+		C8E98CC016760CE800C7C7AA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C8EBB4851676CE820044EAC7 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		C8EBB4861676CE820044EAC7 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		C8EBB4881676CF5D0044EAC7 /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
+		C8EBB4891676CF5D0044EAC7 /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
+		C8EBB48B1676D0020044EAC7 /* Two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Two.h; sourceTree = "<group>"; };
+		C8EBB48C1676D0020044EAC7 /* Two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Two.m; sourceTree = "<group>"; };
+		C8EBB48E1676D04D0044EAC7 /* red.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = red.h; sourceTree = "<group>"; };
+		C8EBB48F1676D04D0044EAC7 /* red.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = red.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +64,7 @@
 		C8E98CA316760CD000C7C7AA = {
 			isa = PBXGroup;
 			children = (
+				C8E98CC016760CE800C7C7AA /* README.md */,
 				C8E98CB416760CD000C7C7AA /* decorate pattern */,
 				C8E98CB116760CD000C7C7AA /* Frameworks */,
 				C8E98CAF16760CD000C7C7AA /* Products */,
@@ -75,7 +92,17 @@
 			children = (
 				C8E98CB516760CD000C7C7AA /* main.m */,
 				C8E98CB916760CD000C7C7AA /* decorate_pattern.1 */,
+				C8EBB48B1676D0020044EAC7 /* Two.h */,
+				C8EBB48C1676D0020044EAC7 /* Two.m */,
 				C8E98CB716760CD000C7C7AA /* Supporting Files */,
+				C8EBB4851676CE820044EAC7 /* Dog.h */,
+				C8EBB4861676CE820044EAC7 /* Dog.m */,
+				C8EBB4881676CF5D0044EAC7 /* one.h */,
+				C8EBB4891676CF5D0044EAC7 /* one.m */,
+				C8EBB48E1676D04D0044EAC7 /* red.h */,
+				C8EBB48F1676D04D0044EAC7 /* red.m */,
+				C88E466D1676D3A60022A234 /* yellow.h */,
+				C88E466E1676D3A60022A234 /* yellow.m */,
 			);
 			path = "decorate pattern";
 			sourceTree = "<group>";
@@ -140,6 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8E98CB616760CD000C7C7AA /* main.m in Sources */,
+				C8EBB4871676CE820044EAC7 /* Dog.m in Sources */,
+				C8EBB48A1676CF5D0044EAC7 /* one.m in Sources */,
+				C8EBB48D1676D0020044EAC7 /* Two.m in Sources */,
+				C8EBB4901676D04E0044EAC7 /* red.m in Sources */,
+				C88E466F1676D3A60022A234 /* yellow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +266,7 @@
 				C8E98CBF16760CD000C7C7AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
